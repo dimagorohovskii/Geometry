@@ -1,17 +1,15 @@
-﻿using System;
+﻿using Geometry.Core.Objects;
+using Geometry.GeometryShapes;
+using Geometry.Model;
+using Geometry.Tests.TestObjects;
+using Microsoft.VisualStudio.TestTools.UnitTesting;
+using System;
 using System.Collections.Generic;
 using System.Diagnostics;
 using System.Linq;
 using System.Threading;
 using System.Threading.Tasks;
-using System.Timers;
 using System.Windows.Media;
-using Geometry.Core.Objects;
-using Geometry.GeometryBehaviors;
-using Geometry.GeometryShapes;
-using Geometry.Model;
-using Geometry.Tests.TestObjects;
-using Microsoft.VisualStudio.TestTools.UnitTesting;
 using Timer = System.Timers.Timer;
 
 namespace Geometry.Tests
