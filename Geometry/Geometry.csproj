@@ -129,7 +129,11 @@
   <ItemGroup>
     <None Include="App.config" />
   </ItemGroup>
-  <ItemGroup />
+  <ItemGroup>
+    <None Include="Scheme.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+  </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\Geometry.Core\Geometry.Core.csproj">
       <Project>{bf29c7b6-cf53-4e03-a031-6fd72bdf3f27}</Project>
